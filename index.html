@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A travel registrattion form</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&family=News+Cycle&family=Righteous&family=Sansita+Swashed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="containerone">
+        <h1>WELCOME TO TRAVEL US TRIP FORM </h1>
+        <p>
+            &nbsp;
+        </p>
+        <p> <i> <h3> Enter your details and sumbit this form to confirm your participation in this trip : </h3> </i> </p>
+       
+  
+    
+    
+    </div>
+    <div class="containertwo">
+        <form action="index.php" method="post">
+
+            <!-- <label class="label" for="name"> NAME : </label> -->
+            <p> <input required type="text" id="name" name="name" placeholder=" Enter Your Name"> </p>
+
+                <!-- <label class="label" for="name"> NAME : </label> -->
+                <p> <input  required type="text" id="age" name="age" placeholder=" Enter Your Age"> </p>
+
+            <!-- <label class="label" for="gender">GENDER : </label> -->
+            <p> <input  required type="text" id="gender" name="gender" placeholder=" Enter Your Gender"> </p>
+
+            <!-- <label class="label" for="number">PHONE NUMBER : </label> -->
+            <p> <input  required type="number" id="phone" name="phone" placeholder=" Enter Your Phone Number"> </p>
+
+            <!-- <label class="label" for="email"> EMAIL : </label> -->
+            <p> <input  required type="email" id="email" name="email" placeholder=" Enter Your Email Adress"> </p>
+
+            <!-- <label class="label" for="name">OTHER INFORMATION : </label>  -->
+            <br> <textarea  required name="other" id="other" cols="30" rows="10"
+                placeholder="ENTER ANY OTHER INFORMATION HERE "></textarea>
+
+            <p> <button>DONE</button>  </p>
+
+        
+
+
+
+
+
+
+
+
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+<style>
+    
+.containerone{
+
+background-color: teal;
+color: white;
+margin: auto;
+max-width: 80%;
+padding: 25px;
+text-align: center;
+font-family: 'Arapey', serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.containertwo{
+
+background-color: teal;
+color : white;
+margin: auto;
+max-width: 80%;
+padding: 25px;
+
+}
+
+input,textarea{
+width: 80%;
+margin: 15px;
+padding: 15px;
+font-size: 14px;
+border-radius: 10px;
+font-family: 'Arapey', serif;
+color: black;
+
+}
+button{
+padding: 10px;
+border-radius: 10px;
+background-color:white;
+cursor: pointer;
+color: teal;
+text-align: center;
+margin: 5px;
+font-family: 'Arapey', serif;
+}
+form{
+
+text-align: center;
+}
+.label{
+
+
+text-align: left !important;
+}
+
+.submitMsg{ 
+color: green;
+font-size: 24px;
+
+}
+</style>
+
+
+</body>
+
+</html>
+
